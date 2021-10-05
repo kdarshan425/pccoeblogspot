@@ -125,7 +125,7 @@
                         <h2 style="font-family: 'Orbitron', sans-serif;color:white;">PCCOE BLOGSPOT</h2>
 
                         <div style="padding:10px;">
-                        <a style="color:#63C8FF" href="https://pccoeblogspot.000webhostapp.com/create_blog.php"><p>Write a Blog</p></a>
+                        <a style="color:#63C8FF" href="https://pccoeblogspot.herokuapp.com/create_blog.php"><p>Write a Blog</p></a>
                         </div>
                         <!-- <center>
                         <form class="d-flex" style="padding-right: 10px; align-items:center; " action="challenge_search.php" method="get"> 
@@ -189,7 +189,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="blog-info">
 
-                    <a href="https://pccoeblogspot.000webhostapp.com/display.php?id='.$id.'">
+                    <a href="https://pccoeblogspot.herokuapp.com/display.php?id='.$id.'">
                     <div>
                         <h4 class="raleway">'.$heading.'</h4>
                         <p style="color:gray;" class="mt-2 raleway"><B>Blog by - </b>'.$name.'</p>                        

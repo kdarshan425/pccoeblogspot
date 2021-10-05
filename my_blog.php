@@ -163,10 +163,10 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
                 echo'
                 <div class="col-md-6 col-lg-4">
                     <div class="blog-info">';?>
-                    <a href="https://pccoeblogspot.000webhostapp.com/delete_blog.php?id=<?php echo$id?>" onclick="return confirm('Are you sure to delete?')"><img src="img/delete.png" style="height:30px;width:30px;right:60px;top:10px;border-radius:40%;position:absolute;z-index:5;" alt=""></a>
+                    <a href="https://pccoeblogspot.herokuapp.com/delete_blog.php?id=<?php echo$id?>" onclick="return confirm('Are you sure to delete?')"><img src="img/delete.png" style="height:30px;width:30px;right:60px;top:10px;border-radius:40%;position:absolute;z-index:5;" alt=""></a>
                     <?php echo'
-                    <a href="https://pccoeblogspot.000webhostapp.com/edit_blog.php?id='.$id.'"><img src="img/edit.png" style="height:30px;width:30px;right:20px;top:10px;border-radius:40%;position:absolute;z-index:5;" alt=""></a>
-                    <a href="https://pccoeblogspot.000webhostapp.com/display.php?id='.$id.'">
+                    <a href="https://pccoeblogspot.herokuapp.com/edit_blog.php?id='.$id.'"><img src="img/edit.png" style="height:30px;width:30px;right:20px;top:10px;border-radius:40%;position:absolute;z-index:5;" alt=""></a>
+                    <a href="https://pccoeblogspot.herokuapp.com/display.php?id='.$id.'">
                     <div>
                         <h4 class="raleway">'.$heading.'</h4>
                         <p style="color:gray;" class="mt-2 raleway"><B>Blog by - </b>'.$name.'</p>                        
@@ -199,7 +199,7 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
                         </center>
                     </div>
                     <center>
-                        <a style="color:#63C8FF" href="https://pccoeblogspot.000webhostapp.com/create_blog.php"><p>Write a Blog</p></a>
+                        <a style="color:#63C8FF" href="https://pccoeblogspot.herokuapp.com/create_blog.php"><p>Write a Blog</p></a>
                     </center>
                 </div>
                       ';

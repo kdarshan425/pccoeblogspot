@@ -114,7 +114,7 @@
                         <input type="hidden" id="heading" name="heading" value="'. $blog_owner. '">                        
                     </div>
                     <!-- <label for="exampleFormControlTextarea1">Post comment</label> -->
-                    <textarea class="form-control" placeholder="Enter Comment" id="comment" name="comment" rows="3" required ></textarea>                    
+                    <textarea type="textbox" data-emoji-input="unicode"  class="form-control" placeholder="Enter Comment" id="comment" name="comment" rows="3" required ></textarea>                    
                 </div>
                 <center>
                 <button style="background:#63C8FF;border-radius:0px;" type="submit" class="btn btn-success">Post Comment</button>
